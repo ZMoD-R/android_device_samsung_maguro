@@ -16,3 +16,6 @@
 $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 
 PRODUCT_NAME := aosp_maguro
+
+PRODUCT_PACKAGES += \
+    Launcher3
